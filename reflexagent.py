@@ -29,4 +29,5 @@ agent = reflex_agent(previous_state="heater off")
 t = int(input("Enter temperature: "))
 print(f"Temperature: {t}°C -> {agent.decide_action(t)}")
         
+
         
